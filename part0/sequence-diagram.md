@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -32,4 +33,4 @@ sequenceDiagram
     server-->>browser: HTTP Status 200, some HTML
     deactivate server
 
-
+```
